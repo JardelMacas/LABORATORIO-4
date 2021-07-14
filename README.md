@@ -6,14 +6,12 @@ AUTORES: JERSON CHAMBA-JARDEL MACAS - ESTEFANY RAMOS
 
 Objetivos Generales
 
-* Explicar y demostrar experimentalmente la Ley de Kirchhoff de Voltajes y la ley de Kirchhoff de Corrientes
+* Demostrar la validez y eficiencia del analisis de circuitos electricos mediante el teorema de superposicion.
 
 Objetivos Especificos
 
-* Reconocer la importancia de la aplicacion de las leyes de kirchhoff hacia los circuitos electricos
-* Verificar analitica y experimentalmente la diferencia entre circuitos ideales y reales.
-* Verificar experimental y analíticamente la efectividad de las convenciones de corrientes.
-* Reconocer las ventajas que sigue manteniendo la ley de Ohm en el analisis de circuitos electricos.
+* Identificar los principios fundamentales que determina el analisis de circuitos electricos por superposicion.
+* Analizar los diferentes metodos posibles para manejar los circuitos generados por el teorema de superposicion.
 
 **2.MARCO TEORICO**
 
@@ -109,7 +107,7 @@ Finalmente, según el teorema de superposición procedemos a sumar o restar los 
 
 ![analisis6](https://user-images.githubusercontent.com/84357979/125636160-02c108c8-cb74-487a-b453-16612ba7dd1d.png)
 
-Calculo de Error Porcentual
+**Calculo de Error Porcentual**
 
 ![analisis7](https://user-images.githubusercontent.com/84357979/125636392-a0d12fd6-4bff-4e80-b444-73ac80c74122.png)
 
@@ -123,13 +121,11 @@ Link del Video: https://www.youtube.com/watch?v=z7h-raDsOWU
 
 **5. CONCLUSIONES**
 
-* Las corrientes de nodo según la ley de Kirchhof tienen una gran aplicación en circuitos donde los voltajes y corrientes de cada elemento son desconocidos.
+* El numero de fuentes de un circuito electrico determinan cuandos sub-circuitos se deben analizar para obtener los resultados por superposicion.
 
-* En las mediciones no se tomo en cuenta la resistencia interna de los dispositivos de medición por lo que algunos cálculos empiezan a presentar errores porcentuales menores.
+* En el analisis de un circuito por superposicion se deben tener en cuenta los modelos equivalentes de una fuente de corriente o de voltaje, en esos casos la anulacion de una fuente puede significar tambien la anulacion de un elemento del circuito.
 
-* En el analisis de circuitos por nodos, se tiene mas libertad de elegir la trayectoria de la corriente, pero seguir la convencion para las fuentes de voltaje siempre simplifican mas su analisis.
-
-* La ley de ohm sigue siendo una teoría fundamental para poder solucionar un circuito mediante el método de corrientes de nodo
+* La solucion de cada sub-circuito se puede manejar con cualquier metodo anteriormente estudiado y aplicando las Leyes de Voltaje y Corriente de Kircchoff.
 
 
 
