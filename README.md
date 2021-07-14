@@ -62,20 +62,64 @@ Objetivos Especificos
 
 **4.RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR**
 
+Empezamos analizando el circuito propuesto, determinando sus componentes y sobre todo el numero de fuentes que este tenga:
 
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-1.png)
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-2.png)
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-3.png)
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-4.png)
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-5.png)
-![](https://github.com/JardelMacas/LABORATORIO-3/blob/main/ProcesoMatematico/ProMat-6.png)
+![image](https://user-images.githubusercontent.com/84357979/125634055-b590ae58-0e7e-4510-b581-0dd3b1dc710d.png)
+
+Según el teorema de superposición, el número de fuentes determina el número de circuitos a evaluar, en el primer circuito tendremos que cortocircuitar la fuente de 12 V mientras que en el segundo Circuito Tendremos que cortocircuitar la fuente de 20 V.
+
+
+**Análisis Circuito 1:**
+•	Hay que tener en cuenta que al suprimir la fuente de 12 V , deberemos también retirar la resistencia de 470 Ω debido a que la fuente esta en serie con dicha fuente (simulando una fuente de corriente).
+
+![image](https://user-images.githubusercontent.com/84357979/125634235-0460abea-28e6-43c4-9ca3-c9de3dff8543.png)
+
+Al haberse suprimido Rx=470 Ω se puede deducir que la corriente Ix=0 A debido a su ausencia en el presente circuito, mientras tanto el Voltaje de la resistencia de 820 Ω puede calcularse mediante el uso de Resistencias Equivalentes y el principio del divisor de tensión.
+
+![analisis1](https://user-images.githubusercontent.com/84357979/125634393-3a1428df-5026-49fb-b599-ce46c07a6fc2.png)
+
+
+**Análisis del Circuito 2:**
+
+•	Al desconectar la fuente de 20 V, no es necesario mover ninguna resistencia debido a que la más próxima a la fuente está en serie con la misma (lo cual no simula ningún otro tipo de fuente)
+
+![image](https://user-images.githubusercontent.com/84357979/125635174-95cdf87a-766d-4b3a-a721-62e530ccf6bf.png)
+
+A continuación, aplicamos el método de análisis de mallas para poder evaluar tanto las corrientes como los voltajes que necesitemos del ejercicio.
+
+![image](https://user-images.githubusercontent.com/84357979/125635558-cea0cb52-b1bc-4be9-9a97-1274214620b9.png)
+
+![analisis2](https://user-images.githubusercontent.com/84357979/125635658-62250b18-b7c5-4218-807f-de544fbe4e13.png)
+
+Finalmente Calculamos la corriente Ix y el voltaje VA del presente circuito.
+
+![analisis3](https://user-images.githubusercontent.com/84357979/125635768-504c9506-6c30-411f-bc02-5c0afaa769e6.png)
+
+**Corriente y Voltaje Total**
+
+Finalmente, según el teorema de superposición procedemos a sumar o restar los resistores o voltajes que se midieron de los 2 circuitos para dar con un valor total que represente al mismo resistor dentro del circuito original.
+
+![analisis4](https://user-images.githubusercontent.com/84357979/125635905-0e7cc8e0-1170-4f14-8750-c8eb16b8b322.png)
+
+**Actividades de la Guia**
+
+4.5 Verifique el cumplimiento del Teorema de Superposición y comparte los resultados obtenidos prácticamente con los obtenidos analíticamente. Realice sus conclusiones.
+
+![analisis5](https://user-images.githubusercontent.com/84357979/125636149-3cf67ee6-2cf3-477d-97e9-44eff3d927bd.png)
+
+![analisis6](https://user-images.githubusercontent.com/84357979/125636160-02c108c8-cb74-487a-b453-16612ba7dd1d.png)
+
+Calculo de Error Porcentual
+
+![analisis7](https://user-images.githubusercontent.com/84357979/125636392-a0d12fd6-4bff-4e80-b444-73ac80c74122.png)
+
 
 
 **5.VIDEO**
 
-Link del Video: https://www.youtube.com/watch?v=a-pVPsHXgMY
+Link del Video: https://www.youtube.com/watch?v=z7h-raDsOWU
 
-[![Circuitos Eléctricos || Guía de Laboratorio 3|| Ley de Kirchhoff || Análisis por Nodos (LCK)](https://img.youtube.com/vi/a-pVPsHXgMY/0.jpg)](https://www.youtube.com/watch?v=a-pVPsHXgMY)
+[![Circuitos Eléctricos || Guía de Laboratorio 4|| Teorema de Superposición](https://img.youtube.com/vi/z7h-raDsOWU/0.jpg)](https://www.youtube.com/watch?v=z7h-raDsOWU)
 
 **5. CONCLUSIONES**
 
